@@ -1,0 +1,21 @@
+{
+  "name": "chatgpt-local-agent-bridge",
+  "version": "0.1.0",
+  "private": false,
+  "type": "module",
+  "description": "Experimental local-first bridge for safe ChatGPT-coordinated local tasks.",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "start": "node dist/src/index.js",
+    "dev": "tsx src/index.ts",
+    "smoke": "npm run build && node dist/scripts/smoke-test.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "tsx": "^4.20.0",
+    "typescript": "^5.8.0"
+  }
+}

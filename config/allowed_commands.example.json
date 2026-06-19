@@ -1,0 +1,14 @@
+{
+  "commands": {
+    "node_version": {
+      "command": "node",
+      "args": ["--version"],
+      "description": "Print the local Node.js version."
+    },
+    "npm_build": {
+      "command": "npm",
+      "args": ["run", "build"],
+      "description": "Run the TypeScript build for this project."
+    }
+  }
+}

@@ -1,0 +1,14 @@
+node_modules/
+dist/
+.env
+.env.*
+!.env.example
+logs/
+jobs/
+cache/
+.cache/
+.DS_Store
+*.log
+*.tmp
+sandbox-workspace/*
+!sandbox-workspace/.gitkeep
